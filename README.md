@@ -1,4 +1,4 @@
-# AutoComment-replication-package
+# AutoComment-Replication-Package
 
 This replication package is created for the paper titled "AutoComment: A Simpler, Faster, More Accurate Code Review
 Comments Recommendation"
