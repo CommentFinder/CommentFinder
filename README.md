@@ -3,6 +3,7 @@
 This replication package is created for the paper titled "AutoComment: A Simpler, Faster, More Accurate Code Review
 Comments Recommendation"
 
+
 ## Abstract
 Code review is an effective quality assurance practice, but can be labor-intensive since developers have to manually review the code and provide written feedback. Recently, a deep learning approach was introduced to automatically recommend code review comments based on changed methods. While the approach showed promising results, it requires expensive computational resource and time which limits its use in practice. To address this limitation, we propose AutoComment -- a simpler and faster retrieval-based approach to recommend code review comments. Through a empirical evaluation of 151,019 changed methods, we evaluate the effectiveness and efficiency of AutoComment against prior work. We find that when recommending a Top-1 review comment candidate, our AutoComment is 32\% better than prior work in recommending the correct code review comment. In addition, AutoComment is 49 times faster than the prior work. These findings highlight that our AutoComment could help reviewers to reduce the manual efforts by recommending code review comments, while requiring less computational resources.
 
