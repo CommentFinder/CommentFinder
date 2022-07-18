@@ -1,14 +1,14 @@
-# AutoComment-Replication-Package
+# CommentFinder-Replication-Package
 
-This replication package is created for the paper titled "AutoComment: A Simpler, Faster, More Accurate Code Review
+This replication package is created for the paper titled "CommentFinder: A Simpler, Faster, More Accurate Code Review
 Comments Recommendation"
 
 
 ## Abstract
-Code review is an effective quality assurance practice, but can be labor-intensive since developers have to manually review the code and provide written feedback. Recently, a deep learning approach was introduced to automatically recommend code review comments based on changed methods. While the approach showed promising results, it requires expensive computational resource and time which limits its use in practice. To address this limitation, we propose AutoComment -- a simpler and faster retrieval-based approach to recommend code review comments. Through a empirical evaluation of 151,019 changed methods, we evaluate the effectiveness and efficiency of AutoComment against prior work. We find that when recommending a Top-1 review comment candidate, our AutoComment is 32\% better than prior work in recommending the correct code review comment. In addition, AutoComment is 49 times faster than the prior work. These findings highlight that our AutoComment could help reviewers to reduce the manual efforts by recommending code review comments, while requiring less computational resources.
+Code review is an effective quality assurance practice, but can be labor-intensive since developers have to manually review the code and provide written feedback. Recently, a deep learning approach was introduced to automatically recommend code review comments based on changed methods. While the approach showed promising results, it requires expensive computational resource and time which limits its use in practice. To address this limitation, we propose CommentFinder -- a simpler and faster retrieval-based approach to recommend code review comments. Through a empirical evaluation of 151,019 changed methods, we evaluate the effectiveness and efficiency of CommentFinder against prior work. We find that when recommending a Top-1 review comment candidate, our CommentFinder is 32\% better than prior work in recommending the correct code review comment. In addition, CommentFinder is 49 times faster than the prior work. These findings highlight that our CommentFinder could help reviewers to reduce the manual efforts by recommending code review comments, while requiring less computational resources.
 
 ## Overview
-![A usage scenario of AutoComment in a code review process](./background.png?style=center)
+![A usage scenario of CommentFinder in a code review process](./background.png?style=center)
 <p>A code review process consists of five main steps (see Figure).
 Broadly speaking, in step 1, a developer will first submit a newly developed code (i.e., new code changes) to the code review tool.
 Then, in step 2, to examine the newly developed code, the developer will invite reviewer(s) (i.e., the developers other than the code author) to review the newly developed code.
@@ -46,8 +46,8 @@ The package structure with respect to RQ is as follows:
 ###  Reproduce our work
 *Run the jupyter-notebook script from top to bottom.
 
-For RQ1: How effective is the proposed AutoComment compared to the state-of-the-art? => RQ1_RQ2.ipynb
+For RQ1: How effective is the proposed CommentFinder compared to the state-of-the-art? => RQ1_RQ2.ipynb
 
-For RQ2: How efficient is the proposed AutoComment compared to the state-of-the-art? => RQ1_RQ2.ipynb
+For RQ2: How efficient is the proposed CommentFinder compared to the state-of-the-art? => RQ1_RQ2.ipynb
 
-For RQ3: What is the impact of similarity techniques on the effectiveness and efficiency of AutoComment? => RQ3.ipynb
+For RQ3: What is the impact of similarity techniques on the effectiveness and efficiency of CommentFinder? => RQ3.ipynb
