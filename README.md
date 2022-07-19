@@ -8,7 +8,7 @@ Comments Recommendation"
 Code review is an effective quality assurance practice, but can be labor-intensive since developers have to manually review the code and provide written feedback. Recently, a deep learning approach was introduced to automatically recommend code review comments based on changed methods. While the approach showed promising results, it requires expensive computational resource and time which limits its use in practice. To address this limitation, we propose CommentFinder -- a simpler and faster retrieval-based approach to recommend code review comments. Through a empirical evaluation of 151,019 changed methods, we evaluate the effectiveness and efficiency of CommentFinder against prior work. We find that when recommending a Top-1 review comment candidate, our CommentFinder is 32\% better than prior work in recommending the correct code review comment. In addition, CommentFinder is 49 times faster than the prior work. These findings highlight that our CommentFinder could help reviewers to reduce the manual efforts by recommending code review comments, while requiring less computational resources.
 
 ## Overview
-![A usage scenario of CommentFinder in a code review process](./background.png?style=center)
+![A usage scenario of CommentFinder in a code review process](./backGroundFigure.png?style=center)
 <p>A code review process consists of five main steps (see Figure).
 Broadly speaking, in step 1, a developer will first submit a newly developed code (i.e., new code changes) to the code review tool.
 Then, in step 2, to examine the newly developed code, the developer will invite reviewer(s) (i.e., the developers other than the code author) to review the newly developed code.
